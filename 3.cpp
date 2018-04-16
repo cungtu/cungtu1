@@ -19,7 +19,7 @@ TP nhan(TP a, TP b)
 	TP x;
 	x.tu=a.tu*b.tu;
 	x.mau=a.mau*b.mau;
-
+	return x;
 }
 int main()
 {	TP s;
